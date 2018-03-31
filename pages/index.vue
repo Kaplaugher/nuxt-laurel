@@ -16,11 +16,8 @@
         <h1>Why choose us?</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique quam quasi ipsa suscipit saepe incidunt cum minima dicta placeat mollitia.</p>
       </div>
-      <div class="why-wrapper">
-        <h1>list</h1>
-      </div>
-      <div class="why-wrapper">
-        <h1>list</h1>
+      <div class="image-wrapper">
+        <h1>image</h1>
       </div>
     </section>
   </section>
@@ -37,7 +34,7 @@ export default {
 
 <style scoped>
 .hero-wrapper {
-  height: 30vh;
+  height: 50vh;
   background-image: url("~/assets/images/dogstick.jpg");
   background-size: cover;
   background-position: center center;
@@ -59,11 +56,11 @@ export default {
 
 .info-wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr;
   padding: 0 32px;
   justify-items: center;
   align-items: center;
-  height: 40vh;
+  height: 50vh;
 }
 
 

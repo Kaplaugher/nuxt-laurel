@@ -2,32 +2,32 @@
   <section class="hour-section">
     <div class="left">
       <div class="title">
-        <h5>Daily Business Hours</h5>
+        <h5 class="is-size-6">Daily Business Hours</h5>
       </div>
       <div class="times">
         <div class="time">
-          <h2>Monday - Friday</h2>
-          <p>8:30am - 5:30pm</p>
+          <h2 class="is-size-7">Monday - Friday</h2>
+          <p class="is-size-7">8:30am - 5:30pm</p>
         </div>
         <div class="time">
-          <h2>Saturday</h2>
-          <p>12:30om - 1:30pm</p>
+          <h2 class="is-size-7">Saturday</h2>
+          <p class="is-size-7">12:30om - 1:30pm</p>
         </div>
         <div class="time">
-          <h2>Closed During Lunch</h2>
-          <p>8:30am - 5:30pm</p>
+          <h2 class="is-size-7">Closed During Lunch</h2>
+          <p class="is-size-7">8:30am - 5:30pm</p>
         </div>
       </div>
     </div>
     <div class="right">
       <div class="title">
-        <h5>Address</h5>
+        <h5 class="is-size-6">Address</h5>
       </div>
       <div class="address">
-        <span>3592 Old Atlanta Road</span>
-        <span>Suite 103</span>
-        <span>Suwanee, GA, 30024</span>
-        <span>(770)888-9750</span>
+        <span class="is-size-7">3592 Old Atlanta Road</span>
+        <span class="is-size-7">Suite 103</span>
+        <span class="is-size-7">Suwanee, GA, 30024</span>
+        <span class="is-size-7">(770)888-9750</span>
       </div>
     </div>
 

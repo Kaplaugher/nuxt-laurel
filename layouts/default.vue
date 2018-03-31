@@ -10,12 +10,10 @@
 <script>
 import TheHeader from '~/components/Navigation/TheHeader'
 import TheSidenav from '~/components/Navigation/TheSidenav'
-import TheFooter from '~/components/Navigation/TheFooter'
 export default {
   components: {
     TheHeader,
     TheSidenav,
-    TheFooter
   },
   data() {
     return {
