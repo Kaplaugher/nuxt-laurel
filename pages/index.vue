@@ -3,21 +3,37 @@
     <section class="hero-wrapper">
       <div class="hero-text">
         <div class="title">
-          <h1>Laurel Springs Animal Hospital</h1>
-        </div>
-        <div class="subtitle">
-          <h2>Here is subtitle</h2>
+          <h1 class="title is-1">Laurel Springs Animal Hospital</h1>
         </div>
       </div>
     </section>
     <Hours />
-    <section class="info-wrapper">
-      <div class="why-wrapper">
-        <h1>Why choose us?</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique quam quasi ipsa suscipit saepe incidunt cum minima dicta placeat mollitia.</p>
+    <section class="welcome-wrapper">
+      <div class="welcome">
+        <h1 style="font-size: 1.5rem;">Welcome to Laurel Springs Animal Hospital, seriving the Forsyth/Gwinett area.</h1>
+        <p style="padding-top: 15px;">We are a full service small animal practice offerseing a wide range of medical and surgical services for your pets.</p>
       </div>
       <div class="image-wrapper">
-        <h1>image</h1>
+        <img id="front-img" src="~/assets/images/dogcat.jpg">
+      </div>
+    </section>
+    <section class="why-wrapper">
+      <div class="why-title">
+        <h1 style="color: black;" class="title is-1">Why Choose us?</h1>
+      </div>
+      <div class="reasons-wrapper">
+        <div class="reason">
+          <h1>Icon 1</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vitae necessitatibus totam eos, ab quos incidunt molestias cupiditate quas sequi perspiciatis provident delectus sed soluta et impedit ullam aspernatur libero!</p>
+        </div>
+        <div class="reason">
+          <h1>Icone 2</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum esse repudiandae voluptates modi, rem placeat necessitatibus reprehenderit voluptatem qui pariatur aliquid culpa temporibus omnis accusamus mollitia? Labore quos amet iste.</p>
+        </div>
+        <div class="reason">
+          <h1>icon 3</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam obcaecati laudantium voluptatibus facere fuga itaque vel atque unde, commodi, inventore, dolores ullam dolorem earum similique in cum quaerat ut. Facilis.</p>
+        </div>
       </div>
     </section>
   </section>
@@ -54,14 +70,33 @@ export default {
   color: white;
 }
 
-.info-wrapper {
+.welcome-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 0 32px;
   justify-items: center;
   align-items: center;
   height: 50vh;
+  grid-gap: 15px;
 }
 
+.why-title {
+  text-align: center;
+  padding: 25px;
+}
 
+.reasons-wrapper {
+  background: blueviolet;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: center;
+  color: white;
+  grid-gap: 25px;
+  justify-items: center;
+  padding: 25px;
+}
+
+#front-img {
+  max-height: 400px;
+}
 </style>
