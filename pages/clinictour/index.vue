@@ -9,16 +9,21 @@
     </section>
     <Hours />
     <Gallery />
+    <Modal>
+      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="">
+    </Modal>
   </section>
 </template>
 
 <script>
 import Hours from "~/components/UI/Hours";
 import Gallery from '~/components/Gallery/Gallery'
+import Modal from '~/components/Gallery/Modal'
 export default {
   components: {
     Hours,
-    Gallery
+    Gallery,
+    Modal
   },
 
 };

@@ -5,8 +5,17 @@
       <p>Some Text goes here, some text goes here, some text goes here, some text goes here.</p>
       <a href="#" class="info-link">Learn more...</a>
     </section>
-    <figure class="figure1">
+    <figure class="figure1" @click="openModal()">
       <img class="figure-img" src="http://placekitten.com/g/350/200" alt="a kitten">
+      <div class="modal" :class="(modalStatus) ? 'is-active' : ''">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+          <p class="image is-4by3">
+            <img src="http://placekitten.com/g/350/200" alt="">
+          </p>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+      </div>
     </figure>
     <figure class="figure2">
       <img class="figure-img" src="http://placekitten.com/g/300/200" alt="a kitten">
@@ -41,10 +50,14 @@
 export default {
   data() {
     return {
-
+      modalStatus: false
+    };
+  },
+  methods: {
+    openModal() {
+      this.modalStatus = !this.modalStatus;
     }
   }
-
 };
 </script>
 
@@ -57,8 +70,8 @@ export default {
   }
 
   .info1 {
-     grid-column: span 2;
-     grid-row: span 2;
+    grid-column: span 2;
+    grid-row: span 2;
   }
 
   .info2 {
@@ -77,8 +90,6 @@ export default {
   }
 }
 
-
-
 /* generic styles ----------------------------------- */
 
 .logo-img {
@@ -88,14 +99,11 @@ export default {
 }
 
 .logo-text {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   font-size: 2.6em;
   color: #c3bab9;
-  text-shadow:
-   -1px -1px 0 #615655,
-    1px -1px 0 #615655,
-    -1px 1px 0 #615655,
-     1px 1px 0 #615655;
+  text-shadow: -1px -1px 0 #615655, 1px -1px 0 #615655, -1px 1px 0 #615655,
+    1px 1px 0 #615655;
 }
 
 .figure-img {
@@ -105,7 +113,8 @@ export default {
   object-fit: cover;
 }
 
-.info1, .info2 {
+.info1,
+.info2 {
   padding: 40px;
   background-color: #333;
   color: white;
@@ -120,9 +129,12 @@ p {
   margin-bottom: 1em;
 }
 
+figure:hover {
+  cursor: pointer;
+}
+
 .info-link {
   text-decoration: none;
   color: #ff9900;
 }
-
 </style>
