@@ -1,5 +1,5 @@
 <template>
-  <section class="about-wrapper">
+  <section class="clinic-wrapper">
     <section class="hero-wrapper">
       <div class="hero-text">
         <div class="title">
@@ -8,26 +8,26 @@
       </div>
     </section>
     <Hours />
-    <section class="about-us">
-
-
-    </section>
+    <Gallery />
   </section>
 </template>
 
 <script>
-import Hours from '~/components/UI/Hours'
+import Hours from "~/components/UI/Hours";
+import Gallery from '~/components/Gallery/Gallery'
 export default {
   components: {
-    Hours
-  }
+    Hours,
+    Gallery
+  },
+
 };
 </script>
 
 <style scoped>
 .hero-wrapper {
   height: 30vh;
-  background-image: url("~/assets/images/kittens.jpg");
+  background-image: url("~/assets/images/dogs.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -44,5 +44,12 @@ export default {
 
 .subtitle {
   color: white;
+}
+
+.image {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: brown;
 }
 </style>
