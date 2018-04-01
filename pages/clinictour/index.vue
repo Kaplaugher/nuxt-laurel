@@ -31,7 +31,7 @@ export default {
 
 <style scoped>
 .hero-wrapper {
-  height: 30vh;
+  height: 40vh;
   background-image: url("~/assets/images/dogs.jpg");
   background-size: cover;
   background-position: center center;
