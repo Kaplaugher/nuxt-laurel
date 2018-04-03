@@ -21,7 +21,6 @@ export default {
 
 .the-footer {
   width: 100%;
-  position: fixed;
   height: 60px;
   display: flex;
   justify-content: space-around;

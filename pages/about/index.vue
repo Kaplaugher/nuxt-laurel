@@ -2,37 +2,26 @@
   <section class="about-wrapper">
     <section class="hero-wrapper">
       <div class="hero-text">
-        <div class="title">
+        <div>
           <h1 class="title is-1">About Us</h1>
         </div>
       </div>
     </section>
     <Hours />
-    <section class="about-us">
-      <div class="us">
-        <h1>Us</h1>
+    <div class="about-clinic">
+      <div class="clinic-left">
+        <h1 class="left-title">Laurel Springs Animal Hospital</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque esse nisi pariatur, cumque id veritatis nesciunt nostrum eveniet distinctio provident, accusantium, voluptates ut veniam consectetur laudantium et a molestias blanditiis!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, dolorum quaerat sapiente quos dicta porro asperiores consequuntur facere excepturi enim labore eveniet reiciendis, alias non sunt beatae molestias earum adipisci?</p>
       </div>
-      <div class="services">
-        <div class="title">
-          <h1 style="color: black;">Services</h1>
-        </div>
-        <div>
-          <ul class="list">
-            <li>-Health exams</li>
-            <li>-Health exams</li>
-            <li>-Health exams</li>
-            <li>-Health exams</li>
-            <li>-Health exams</li>
-            <li>-Health exams</li>
-            <li>-Health exams</li>
-            <li>-Health exams</li>
-            <li>-Health exams</li>
-            <li>-Health exams</li>
-          </ul>
+      <div class="clinic-right">
+        <div class="image-container">
+          <figure class="image is-4by3">
+            <img src="~/assets/images/drt.jpg">
+          </figure>
         </div>
       </div>
-      </div>
-    </section>
+    </div>
   </section>
 </template>
 
@@ -63,26 +52,23 @@ export default {
   color: white;
 }
 
-.subtitle {
-  color: white;
-}
-
-.about-us {
+.about-clinic {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.clinic-left {
+  display: grid;
   justify-items: center;
-  grid-gap: 15px;
   padding: 25px;
 }
 
-.list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.left-title {
+  font-size: 1.5rem;
 }
 
-li {
-  color: black;
-  font-size: 1.2rem;
+.image-container {
+  display: grid;
+  align-items: center;
 }
 </style>
