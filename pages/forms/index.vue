@@ -2,9 +2,7 @@
   <div>
     <section class="hero-wrapper">
       <div class="hero-text">
-        <div>
-          <h1 class="title is-1">About Us</h1>
-        </div>
+        <h1>Forms</h1>
       </div>
     </section>
     <Hours />
@@ -12,29 +10,54 @@
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            <img src="~/assets/images/cat.jpg" alt="Placeholder image">
           </figure>
         </div>
         <div class="card-content">
           <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48">
-                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-              </figure>
-            </div>
             <div class="media-content">
-              <p class="title is-4">John Smith</p>
-              <p class="subtitle is-6">@johnsmith</p>
+              <p class="title is-4">Form 1</p>
             </div>
           </div>
-
           <div class="content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-            <a>@bulmaio</a>.
-            <a href="#">#css</a>
-            <a href="#">#responsive</a>
-            <br>
-            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="~/assets/images/cat.jpg" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-content">
+              <p class="title is-4">Form 2</p>
+            </div>
+          </div>
+          <div class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="~/assets/images/cat.jpg" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-content">
+              <p class="title is-4">Form 3</p>
+            </div>
+          </div>
+          <div class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+
           </div>
         </div>
       </div>
@@ -43,7 +66,7 @@
 </template>
 
 <script>
-import Hours from '~/components/UI/Hours'
+import Hours from "~/components/UI/Hours";
 export default {
   components: {
     Hours
@@ -57,6 +80,8 @@ export default {
   background-image: url("~/assets/images/kittens.jpg");
   background-size: cover;
   background-position: center center;
+  display: grid;
+  align-items: center;
 }
 
 .hero-text {
@@ -66,6 +91,18 @@ export default {
 }
 
 .title {
+  color: black;
+}
+
+h1 {
   color: white;
+  font-size: 4rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  padding: 25px;
 }
 </style>
