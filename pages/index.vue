@@ -50,16 +50,18 @@ export default {
 
 <style scoped>
 .hero-wrapper {
-  height: 50vh;
+  height: 40vh;
   background-image: url("~/assets/images/dogstick.jpg");
   background-size: cover;
   background-position: center center;
+  display: grid;
+  align-items: center;
 }
 
 .hero-text {
   display: flex;
   flex-direction: column;
-  padding: 40px;
+
 }
 
 .title {
@@ -73,16 +75,15 @@ export default {
 .welcome-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 0 32px;
   justify-items: center;
   align-items: center;
-  height: 50vh;
   grid-gap: 15px;
+  padding: 3rem;
 }
 
 .why-title {
   text-align: center;
-  padding: 25px;
+  padding: 3rem;
 }
 
 .reasons-wrapper {
@@ -93,7 +94,8 @@ export default {
   color: white;
   grid-gap: 25px;
   justify-items: center;
-  padding: 25px;
+  padding: 3rem;
+
 }
 
 #front-img {

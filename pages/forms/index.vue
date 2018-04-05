@@ -6,62 +6,6 @@
       </div>
     </section>
     <Hours />
-    <section class="card-container">
-      <div class="card">
-        <div class="card-image">
-          <figure class="image is-4by3">
-            <img src="~/assets/images/cat.jpg" alt="Placeholder image">
-          </figure>
-        </div>
-        <div class="card-content">
-          <div class="media">
-            <div class="media-content">
-              <p class="title is-4">Form 1</p>
-            </div>
-          </div>
-          <div class="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-image">
-          <figure class="image is-4by3">
-            <img src="~/assets/images/cat.jpg" alt="Placeholder image">
-          </figure>
-        </div>
-        <div class="card-content">
-          <div class="media">
-            <div class="media-content">
-              <p class="title is-4">Form 2</p>
-            </div>
-          </div>
-          <div class="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-image">
-          <figure class="image is-4by3">
-            <img src="~/assets/images/cat.jpg" alt="Placeholder image">
-          </figure>
-        </div>
-        <div class="card-content">
-          <div class="media">
-            <div class="media-content">
-              <p class="title is-4">Form 3</p>
-            </div>
-          </div>
-          <div class="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
 </template>
 
@@ -100,9 +44,9 @@ h1 {
 }
 
 .card-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   grid-gap: 15px;
-  padding: 25px;
+  justify-content: space-around;
 }
+
 </style>

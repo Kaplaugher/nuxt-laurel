@@ -46,7 +46,7 @@ export default {
     background: cadetblue;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    padding: 20px 0;
+    padding: 10px 0;
     align-items: center;
   }
 
@@ -58,7 +58,7 @@ export default {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
   .address {
     display: flex;

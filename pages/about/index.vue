@@ -15,11 +15,7 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, dolorum quaerat sapiente quos dicta porro asperiores consequuntur facere excepturi enim labore eveniet reiciendis, alias non sunt beatae molestias earum adipisci?</p>
       </div>
       <div class="clinic-right">
-        <div class="image-container">
-          <figure class="image is-4by3">
-            <img src="~/assets/images/drt.jpg">
-          </figure>
-        </div>
+
       </div>
     </div>
   </section>
@@ -40,6 +36,8 @@ export default {
   background-image: url("~/assets/images/kittens.jpg");
   background-size: cover;
   background-position: center center;
+  display: grid;
+  align-items: center;
 }
 
 .hero-text {
@@ -58,8 +56,9 @@ export default {
 }
 
 .clinic-left {
-  display: grid;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 25px;
 }
 
@@ -67,8 +66,5 @@ export default {
   font-size: 1.5rem;
 }
 
-.image-container {
-  display: grid;
-  align-items: center;
-}
+
 </style>

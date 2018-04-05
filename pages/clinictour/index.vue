@@ -35,6 +35,8 @@ export default {
   background-image: url("~/assets/images/dogs.jpg");
   background-size: cover;
   background-position: center center;
+  display: grid;
+  align-items: center;
 }
 
 .hero-text {
