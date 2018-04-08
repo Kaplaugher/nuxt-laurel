@@ -33,6 +33,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '~/plugins/vue-googlemaps.js', ssr: false },
   ],
 
   /*
@@ -41,7 +42,7 @@ module.exports = {
   modules: [,
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/bulma'
-  ],
+  ]
 
   /*
   ** Build configuration
@@ -60,7 +61,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
     }
   }
 }

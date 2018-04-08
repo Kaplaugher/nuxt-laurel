@@ -5,43 +5,33 @@
         <h1>Contact Us</h1>
       </div>
     </section>
-    <section class="form-wrapper">
-      <div class="field">
-        <label class="label">Name</label>
-        <div class="control">
-          <input class="input" type="text" placeholder="Text input">
-        </div>
+    <Hours />
+    <div class="form-container">
+      <div class="left">
+        <Form />
       </div>
-
-      <div class="field">
-        <label class="label">Email</label>
-        <div class="control has-icons-left has-icons-right">
-          <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
-          <span class="icon is-small is-left">
-            <i class="fas fa-envelope"></i>
-          </span>
-          <span class="icon is-small is-right">
-            <i class="fas fa-exclamation-triangle"></i>
-          </span>
-        </div>
-        <p class="help is-danger">This email is invalid</p>
+      <div class="right">
+        <p>right side</p>
       </div>
-
-      <div class="field">
-        <label class="label">Message</label>
-        <div class="control">
-          <textarea class="textarea" placeholder="Textarea"></textarea>
-        </div>
-      </div>
-
-    </section>
-
+    </div>
+    <div class="map-container">
+      <GoogleMap />
+    </div>
   </div>
 
 </template>
 
 <script>
-export default {};
+import Hours from "~/components/UI/Hours";
+import GoogleMap from '~/components/Map/GoogleMap'
+import Form from '~/components/UI/Form'
+export default {
+  components: {
+    Hours,
+    GoogleMap,
+    Form
+  }
+};
 </script>
 
 <style scoped>
@@ -64,4 +54,11 @@ h1 {
   color: white;
   font-size: 4rem;
 }
+
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 32px;
+}
+
 </style>

@@ -43,10 +43,5 @@ h1 {
   font-size: 4rem;
 }
 
-.card-container {
-  display: flex;
-  grid-gap: 15px;
-  justify-content: space-around;
-}
 
 </style>
