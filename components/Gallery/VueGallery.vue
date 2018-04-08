@@ -41,16 +41,18 @@
 </script>
 <style scoped>
 .gallery-wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-template-rows: auto;
-  justify-items: center;
-  padding: 32px;
+  display: flex;
+  padding: .5vw;
+  flex-flow: row wrap;
 }
 
 .image {
   background-size: cover;
+  flex: auto;
+  width: 200px;
+  margin: .5vw;
 }
+
 
 </style>
 
