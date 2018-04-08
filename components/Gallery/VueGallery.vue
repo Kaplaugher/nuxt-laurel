@@ -51,6 +51,7 @@
   flex: auto;
   width: 200px;
   margin: .5vw;
+  height: auto;
 }
 
 

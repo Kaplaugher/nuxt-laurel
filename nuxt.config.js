@@ -45,6 +45,14 @@ module.exports = {
     '@nuxtjs/bulma',
   ],
 
+  build: {
+    postcss: {
+      plugins: {
+        'postcss-custom-properties': false,
+      },
+    },
+  },
+
   /*
   ** Build configuration
   */
