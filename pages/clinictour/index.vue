@@ -8,22 +8,22 @@
       </div>
     </section>
     <Hours />
-    <Gallery />
-    <Modal>
-      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="">
-    </Modal>
+    <VueGallery />
   </section>
+
 </template>
 
 <script>
 import Hours from "~/components/UI/Hours";
 import Gallery from '~/components/Gallery/Gallery'
 import Modal from '~/components/Gallery/Modal'
+import VueGallery from '~/components/Gallery/VueGallery'
 export default {
   components: {
     Hours,
     Gallery,
-    Modal
+    Modal,
+    VueGallery
   },
 
 };
