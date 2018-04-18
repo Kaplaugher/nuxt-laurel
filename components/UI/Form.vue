@@ -19,6 +19,7 @@
         <textarea class="textarea" placeholder="Textarea"></textarea>
       </div>
     </div>
+    <a class="button is-primary">Submit</a>
   </div>
 </template>
 

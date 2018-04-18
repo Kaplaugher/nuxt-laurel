@@ -8,24 +8,18 @@
       </div>
     </section>
     <Hours />
-    <div class="about-clinic">
-      <div class="clinic-left">
-        <h1 class="left-title">Laurel Springs Animal Hospital</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque esse nisi pariatur, cumque id veritatis nesciunt nostrum eveniet distinctio provident, accusantium, voluptates ut veniam consectetur laudantium et a molestias blanditiis!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, dolorum quaerat sapiente quos dicta porro asperiores consequuntur facere excepturi enim labore eveniet reiciendis, alias non sunt beatae molestias earum adipisci?</p>
-      </div>
-      <div class="clinic-right">
+    <Gallery />
 
-      </div>
-    </div>
   </section>
 </template>
 
 <script>
 import Hours from "~/components/UI/Hours";
+import Gallery from '~/components/Gallery/Gallery';
 export default {
   components: {
-    Hours
+    Hours,
+    Gallery
   }
 };
 </script>

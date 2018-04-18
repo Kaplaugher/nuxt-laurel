@@ -28,7 +28,6 @@
           'https://source.unsplash.com/random',
           'https://source.unsplash.com/random',
           'https://source.unsplash.com/random',
-          'https://source.unsplash.com/random',
         ],
         index: null
       };
@@ -52,6 +51,12 @@
   width: 200px;
   margin: .5vw;
   height: auto;
+  transition: .3s ease-in-out;
+}
+
+.image:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 

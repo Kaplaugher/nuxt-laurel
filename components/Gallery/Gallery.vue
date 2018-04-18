@@ -17,47 +17,28 @@
         <button class="modal-close is-large" aria-label="close"></button>
       </div>
     </figure>
-    <figure class="figure2">
-      <img class="figure-img" src="http://placekitten.com/g/300/200" alt="a kitten">
-    </figure>
-    <figure class="figure3">
-      <img class="figure-img" src="http://placekitten.com/g/500/500" alt="a kitten">
-    </figure>
-    <figure class="figure4">
-      <img class="figure-img" src="http://placekitten.com/g/460/460" alt="a kitten">
-    </figure>
-    <figure class="figure5">
-      <img class="figure-img" src="http://placekitten.com/g/210/300" alt="a kitten">
-    </figure>
-    <figure class="figure6">
-      <img class="figure-img" src="http://placekitten.com/g/330/250" alt="a kitten">
-    </figure>
-    <section class="info2">
+    <section class="info3">
       <h2>The Title</h2>
       <p>Some Text goes here, some text goes here, some text goes here, some text goes here.</p>
       <a href="#" class="info-link">Learn more...</a>
     </section>
-    <figure class="figure7">
-      <img class="figure-img" src="http://placekitten.com/g/300/150" alt="a kitten">
+    <figure class="figure2">
+      <img class="figure-img" src="http://placekitten.com/g/300/200" alt="a kitten">
     </figure>
-    <figure class="figure7">
-      <img class="figure-img" src="http://placekitten.com/g/370/190" alt="a kitten">
+    <figure class="figure4">
+      <img class="figure-img" src="http://placekitten.com/g/460/460" alt="a kitten">
     </figure>
+    <section class="info2">
+      <h2>The Title</h2>
+      <p>Some Text goes here, some text goes here, some text goes here, some text goes here. Some Text goes here, some text goes here, some text goes here, some text goes here. Some Text goes here, some text goes here, some text goes here, some text goes here. Some Text goes here, some text goes here, some text goes here, some text goes here. Some Text goes here, some text goes here, some text goes here, some text goes here.</p>
+      <a href="#" class="info-link">Learn more...</a>
+    </section>
   </main>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      modalStatus: false
-    };
-  },
-  methods: {
-    openModal() {
-      this.modalStatus = !this.modalStatus;
-    }
-  }
+
 };
 </script>
 
@@ -78,15 +59,20 @@ export default {
     grid-column: span 2;
   }
 
-  .figure1 {
-    grid-column: span 3;
-    grid-row: span 2;
-  }
-  .figure6 {
+  .info3 {
     grid-column: span 2;
   }
-  .figure7 {
-    grid-column: span 3;
+
+  .figure1 {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  .figure2 {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  .figure4 {
+    grid-column: span 2;
   }
 }
 
@@ -113,11 +99,26 @@ export default {
   object-fit: cover;
 }
 
-.info1,
-.info2 {
+.info1 {
   padding: 40px;
   background-color: #333;
   color: white;
+}
+
+.info2 {
+  padding: 40px;
+  background-color: #00cba9;
+  color: white;
+}
+
+.info3 {
+  padding: 40px;
+  background-color: #368fed;
+  color: white;
+}
+
+.info2 a {
+  color: #333;
 }
 
 h2 {
@@ -127,10 +128,6 @@ h2 {
 
 p {
   margin-bottom: 1em;
-}
-
-figure:hover {
-  cursor: pointer;
 }
 
 .info-link {
