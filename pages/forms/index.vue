@@ -6,14 +6,21 @@
       </div>
     </section>
     <Hours />
+    <section class="form-cards">
+      <Card />
+      <Card />
+      <Card />
+    </section>
   </div>
 </template>
 
 <script>
 import Hours from "~/components/UI/Hours";
+import Card from '~/components/UI/Card';
 export default {
   components: {
-    Hours
+    Hours,
+    Card
   }
 };
 </script>
@@ -41,6 +48,19 @@ export default {
 h1 {
   color: white;
   font-size: 4rem;
+}
+
+.form-cards {
+  display: grid;
+  padding: 10%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+
+@media(max-width: 700px) {
+  .form-cards {
+    grid-template-columns: 1fr;
+  }
 }
 
 
