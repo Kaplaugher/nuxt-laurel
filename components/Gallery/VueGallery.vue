@@ -18,16 +18,22 @@
     data: function () {
       return {
         images: [
-          'https://source.unsplash.com/random',
-          'https://source.unsplash.com/random',
-          'https://source.unsplash.com/random',
-          'https://source.unsplash.com/random',
-          'https://source.unsplash.com/random',
-          'https://source.unsplash.com/random',
-          'https://source.unsplash.com/random',
-          'https://source.unsplash.com/random',
-          'https://source.unsplash.com/random',
-          'https://source.unsplash.com/random',
+          'https://res.cloudinary.com/kaptivating-io/image/upload/f_auto/v1524338327/laurelsprings/IMG_0533_iy1sy0.jpg',
+          'https://res.cloudinary.com/kaptivating-io/image/upload/f_auto/v1524338327/laurelsprings/IMG_0532_kugbr3.jpg',
+          'https://res.cloudinary.com/kaptivating-io/image/upload/f_auto/v1524338327/laurelsprings/IMG_0531_ehfjub.jpg',
+          'https://res.cloudinary.com/kaptivating-io/image/upload/f_auto/v1524338327/laurelsprings/IMG_0530_iok1gq.jpg',
+          'https://res.cloudinary.com/kaptivating-io/image/upload/f_auto/v1524338327/laurelsprings/IMG_0529_ot2xt6.jpg',
+          'https://res.cloudinary.com/kaptivating-io/image/upload/f_auto/v1524338327/laurelsprings/IMG_0528_n7mxjg.jpg',
+          'https://res.cloudinary.com/kaptivating-io/image/upload/f_auto/v1524338327/laurelsprings/IMG_0527_ncjxfe.jpg',
+          'https://res.cloudinary.com/kaptivating-io/image/upload/f_auto/v1524338326/laurelsprings/IMG_0526_znabch.jpg',
+          'https://res.cloudinary.com/kaptivating-io/image/upload/f_auto/v1524338326/laurelsprings/IMG_0522_mvbvmu.jpg',
+          'https://res.cloudinary.com/kaptivating-io/image/upload/f_auto/v1524338326/laurelsprings/IMG_0521_zz0fan.jpg',
+          'https://res.cloudinary.com/kaptivating-io/image/upload/f_auto/v1524338326/laurelsprings/IMG_0520_m50wsq.jpg',
+          'https://res.cloudinary.com/kaptivating-io/image/upload/f_auto/v1524338326/laurelsprings/IMG_0519-1_wf5ulz.jpg',
+          'https://res.cloudinary.com/kaptivating-io/image/upload/f_auto/v1524338326/laurelsprings/IMG_0518_cadnkn.jpg',
+          'https://res.cloudinary.com/kaptivating-io/image/upload/f_auto/v1524338326/laurelsprings/IMG_0517_u9pvt7.jpg',
+          'https://res.cloudinary.com/kaptivating-io/image/upload/f_auto/v1524338326/laurelsprings/IMG_0516_rxockt.jpg',
+          'https://res.cloudinary.com/kaptivating-io/image/upload/f_auto/v1524338326/laurelsprings/IMG_0514_w0v0ky.jpg',
         ],
         index: null
       };
