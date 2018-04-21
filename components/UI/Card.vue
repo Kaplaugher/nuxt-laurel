@@ -14,7 +14,7 @@
 
     <div class="content">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+      Phasellus nec iaculis mauris. <a>Download Here</a>.
     </div>
   </div>
 </div>

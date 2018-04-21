@@ -11,9 +11,11 @@
       <ul
         class="nav-list"
         @click="$emit('close')">
-        <li class="nav-item"><nuxt-link to="/posts">Blog</nuxt-link></li>
         <li class="nav-item"><nuxt-link to="/about">About</nuxt-link></li>
-        <li class="nav-item"><nuxt-link to="/admin">Admin</nuxt-link></li>
+        <li class="nav-item"><nuxt-link to="/clinictour">Clinic Tour</nuxt-link></li>
+        <li class="nav-item"><nuxt-link to="/Forms">Forms</nuxt-link></li>
+        <li class="nav-item"><nuxt-link to="/contact">Contact</nuxt-link></li>
+        <li class="nav-item"><a href="https://laurelspringsvet.vetsfirstchoice.com/" target="__blank">Store</a></li>
       </ul>
     </div>
   </transition>
