@@ -61,6 +61,7 @@ export default {
 .hero-text {
   display: flex;
   flex-direction: column;
+  padding: 40px;
 
 }
 
