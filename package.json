@@ -15,7 +15,7 @@
     "nuxt": "^1.0.0",
     "vue-gallery": "^1.3.2",
     "vue-googlemaps": "0.0.6",
-    "vue2-google-maps": "^0.8.11"
+    "vue2-google-maps": "^0.8.12"
   },
   "devDependencies": {
     "cross-env": "^5.0.1"

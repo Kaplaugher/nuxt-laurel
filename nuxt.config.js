@@ -33,7 +33,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~/plugins/vue-googlemaps.js', ssr: false },
+    { src: '~/plugins/vue2-google-maps.js', ssr: false },
     { src: '~/plugins/vue-gallery.js', ssr: false },
   ],
 
@@ -52,6 +52,7 @@ module.exports = {
       },
     },
   },
+  vendor: ['vue2-google-maps'],
 
   /*
   ** Build configuration

@@ -1,7 +1,19 @@
 <template>
-    <googlemaps-map ref="map" :center="center" @ready="ready" :zoom="18">
-
-    </googlemaps-map>
+  <GmapMap
+  :center="{lat: 34.101699, lng: -84.139432}"
+  :zoom="17"
+  map-type-id="terrain"
+  style="width: 100%; height: 300px"
+>
+    <GmapMarker
+    :key="index"
+    v-for="(m, index) in markers"
+    :position="m.position"
+    :clickable="true"
+    :draggable="false"
+    @click="center=m.position"
+  />
+  </GmapMap>
 </template>
 
 <script>
@@ -9,22 +21,17 @@ export default {
   data() {
     return {
       center: { lat: 34.101699, lng: -84.139432 },
-      markers: [{
-
-      }]
-    };
-  },
-  methods: {
-    ready() {
-      this.$refs.map.resize();
+      markers: [
+        {
+          position: { lat: 34.101699, lng: -84.139432}
+        }
+      ]
     }
   }
-};
+
+}
 </script>
 
 <style>
-.vue-google-map {
-  width: 100%;
-  height: 35vh;
-}
+
 </style>
