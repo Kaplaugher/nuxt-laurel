@@ -5,17 +5,8 @@
       <p>Some Text goes here, some text goes here, some text goes here, some text goes here.</p>
       <a href="#" class="info-link">Learn more...</a>
     </section>
-    <figure class="figure1" @click="openModal()">
+    <figure class="figure1">
       <img class="figure-img" src="http://placekitten.com/g/350/200" alt="a kitten">
-      <div class="modal" :class="(modalStatus) ? 'is-active' : ''">
-        <div class="modal-background"></div>
-        <div class="modal-content">
-          <p class="image is-4by3">
-            <img src="http://placekitten.com/g/350/200" alt="">
-          </p>
-        </div>
-        <button class="modal-close is-large" aria-label="close"></button>
-      </div>
     </figure>
     <section class="info3">
       <h2>The Title</h2>

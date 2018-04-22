@@ -23,15 +23,15 @@
       </div>
       <div class="reasons-wrapper">
         <div class="reason">
-          <h1>Icon 1</h1>
+          <h1 class="is-size-4 reason-title">Friendly and Courteous Staff</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vitae necessitatibus totam eos, ab quos incidunt molestias cupiditate quas sequi perspiciatis provident delectus sed soluta et impedit ullam aspernatur libero!</p>
         </div>
         <div class="reason">
-          <h1>Icone 2</h1>
+          <h1 class="is-size-4 reason-title">Dedicated Personalized Service</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum esse repudiandae voluptates modi, rem placeat necessitatibus reprehenderit voluptatem qui pariatur aliquid culpa temporibus omnis accusamus mollitia? Labore quos amet iste.</p>
         </div>
         <div class="reason">
-          <h1>icon 3</h1>
+          <h1 class="is-size-4 reason-title">State of the Art Facilities</h1>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam obcaecati laudantium voluptatibus facere fuga itaque vel atque unde, commodi, inventore, dolores ullam dolorem earum similique in cum quaerat ut. Facilis.</p>
         </div>
       </div>
@@ -97,6 +97,11 @@ export default {
   justify-items: center;
   padding: 3rem;
 
+}
+
+.reason-title {
+  text-align: center;
+  padding-bottom: 15px;
 }
 
 #front-img {

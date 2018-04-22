@@ -8,10 +8,12 @@
     <Hours />
     <div class="form-container">
       <div class="left">
-        <Form />
+        <h2 class="is-size-4 left-title">Emergency/After Hours:</h2>
+        <p>North Georgia Veterinary Specialists<br> 1328 Buford Hwy<br> Building 200 Buford, GA 30518<br> (678) 835-3300</p>
+        <p>All Pets Emergency and Referral<br> 6460 Highway 9<br> Alpharetta, GA 30004<br> (678) 366-2125</p>
       </div>
       <div class="right">
-        <p>right side</p>
+        <Form />
       </div>
     </div>
     <div class="map-container">
@@ -23,8 +25,8 @@
 
 <script>
 import Hours from "~/components/UI/Hours";
-import GoogleMap from '~/components/Map/GoogleMap'
-import Form from '~/components/UI/Form'
+import GoogleMap from "~/components/Map/GoogleMap";
+import Form from "~/components/UI/Form";
 export default {
   components: {
     Hours,
@@ -48,18 +50,26 @@ export default {
   display: flex;
   flex-direction: column;
   padding: 40px;
+  color: white;
 }
 
 h1 {
-  color: white;
   font-size: 4rem;
+}
+
+.form-title {
+  text-align: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .form-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 32px;
-  background: #d3d3d3;
 }
-
 </style>

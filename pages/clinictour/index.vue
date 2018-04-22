@@ -3,7 +3,7 @@
     <section class="hero-wrapper">
       <div class="hero-text">
         <div class="title">
-          <h1 class="title is-1">Laurel Springs Animal Hospital</h1>
+          <h1 class="title is-1">Clinic Tour</h1>
         </div>
       </div>
     </section>

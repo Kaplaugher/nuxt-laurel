@@ -2,7 +2,7 @@
   <div class="footer-container">
     <footer class="the-footer">
       <div>
-        <span>copyright stuff</span>
+        <span>&copy; Copyright Laurel Springs Animal Hospital</span>
       </div>
     </footer>
   </div>
@@ -30,6 +30,7 @@ export default {
   box-sizing: border-box;
   padding: 0 20px;
   bottom: 0;
+  color: white;
 }
 
 .logo {
