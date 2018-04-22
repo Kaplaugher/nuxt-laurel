@@ -59,6 +59,7 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 32px;
+  background: #d3d3d3;
 }
 
 </style>
