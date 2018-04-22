@@ -14,7 +14,7 @@
         <p style="padding-top: 15px;">We are a full service small animal practice offerseing a wide range of medical and surgical services for your pets.</p>
       </div>
       <div class="image-wrapper">
-        <img id="front-img" src="~/assets/images/dogcat.jpg">
+        <img id="front-img" src="~/assets/guinnea.jpg">
       </div>
     </section>
     <section class="why-wrapper">
@@ -51,7 +51,7 @@ export default {
 <style scoped>
 .hero-wrapper {
   height: 40vh;
-  background-image: url("~/assets/images/dogstick.jpg");
+  background-image: url("~/assets/guinnea.jpg");
   background-size: cover;
   background-position: center center;
   display: grid;
