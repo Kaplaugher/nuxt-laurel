@@ -17,6 +17,14 @@
 import Hours from "~/components/UI/Hours";
 import Gallery from '~/components/Gallery/Gallery';
 export default {
+  head () {
+    return {
+      title: 'About Us',
+      meta: [
+        { hid: 'description', name: 'description', content: 'At Laurel Springs Animal Hospital, we understand that your pet is a special part of your family and we will take the appropriate steps to understand both your needs. Our staff is committed to providing your pet with the finest care! We want your pet to be a happy and healthy member of the family. That’s why, we treat every pet as a member of our family.' }
+      ]
+    }
+  },
   components: {
     Hours,
     Gallery

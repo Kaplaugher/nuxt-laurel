@@ -33,6 +33,14 @@ import Hours from "~/components/UI/Hours";
 import GoogleMap from "~/components/Map/GoogleMap";
 import Form from "~/components/UI/Form";
 export default {
+  head () {
+    return {
+      title: 'Contact Us',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Have a question? Need additional information? Please feel free to contact us.' }
+      ]
+    }
+  },
   components: {
     Hours,
     GoogleMap,

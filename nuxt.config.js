@@ -7,11 +7,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: 'Laurel Springs Animal Hospital',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid: 'description', name: 'description', content: 'Welcome to Laurel Springs Animal Hospital serving the Forsyth/Gwinnett area. We are a full-service small animal practice offering a wide range of medical and surgical services for your pets. We offer superior care in a friendly and compassionate environment.' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

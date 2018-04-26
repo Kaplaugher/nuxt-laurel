@@ -19,6 +19,14 @@ import Gallery from '~/components/Gallery/Gallery'
 import Modal from '~/components/Gallery/Modal'
 import VueGallery from '~/components/Gallery/VueGallery'
 export default {
+  head () {
+    return {
+      title: 'Clinic Tour',
+      meta: [
+        { hid: 'description', name: 'description', content: 'We are proud of our state of the art facilities.  Please take a moment to take a quick tour.' }
+      ]
+    }
+  },
   components: {
     Hours,
     Gallery,
