@@ -88,6 +88,8 @@ export default {
   align-items: center;
   grid-gap: 15px;
   padding: 3rem;
+  background: #4f9bdb;
+  color: white;
 }
 
 .why-title {
