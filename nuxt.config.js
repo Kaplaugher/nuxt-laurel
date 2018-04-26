@@ -27,6 +27,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    '~assets/styles/main.css',
   ],
 
   /*
@@ -53,6 +54,11 @@ module.exports = {
     },
   },
   vendor: ['vue2-google-maps'],
+
+  transition: {
+    name: 'fade',
+    mode: 'out-in',
+  },
 
   /*
   ** Build configuration
