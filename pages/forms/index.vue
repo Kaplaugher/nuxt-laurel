@@ -18,6 +18,14 @@
 import Hours from "~/components/UI/Hours";
 import Card from '~/components/UI/Card';
 export default {
+  head () {
+    return {
+      title: 'Forms',
+      meta: [
+        { hid: 'description', name: 'description', content: 'We try to save you as much time as possible while taking care of your pet.  The following forms are intended for you to download and fill out before you come in.  This should save you some time so your wait at our clinic is minimal.  In order to read and print these forms you will need Adobe Acrobat Reader installed on your computer.' }
+      ]
+    }
+  },
   components: {
     Hours,
     Card
@@ -27,7 +35,7 @@ export default {
 
 <style scoped>
 .hero-wrapper {
-  height: 40vh;
+  height: 50vh;
   background-image: url("~/assets/guinnea.jpg");
   background-size: cover;
   background-position: center center;

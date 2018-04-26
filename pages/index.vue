@@ -14,7 +14,7 @@
         <p style="padding-top: 15px;">We are a full service small animal practice offerseing a wide range of medical and surgical services for your pets.</p>
       </div>
       <div class="image-wrapper">
-        <img id="front-img" src="~/assets/guinnea.jpg">
+        <img id="front-img" src="~/assets/dogcatfield.jpg">
       </div>
     </section>
     <section class="why-wrapper">
@@ -44,7 +44,7 @@ import Hours from "~/components/UI/Hours";
 export default {
   head () {
     return {
-      title: 'Forms',
+      title: 'Home',
       meta: [
         { hid: 'description', name: 'description', content: 'We try to save you as much time as possible while taking care of your pet.  The following forms are intended for you to download and fill out before you come in.  This should save you some time so your wait at our clinic is minimal.  In order to read and print these forms you will need Adobe Acrobat Reader installed on your computer.' }
       ]
@@ -58,8 +58,8 @@ export default {
 
 <style scoped>
 .hero-wrapper {
-  height: 40vh;
-  background-image: url("~/assets/guinnea.jpg");
+  height: 50vh;
+  background-image: url("~/assets/linedup.jpg");
   background-size: cover;
   background-position: center center;
   display: grid;
@@ -74,7 +74,7 @@ export default {
 }
 
 .title {
-  color: white;
+  color: black;
 }
 
 .subtitle {
