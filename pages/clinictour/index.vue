@@ -8,6 +8,7 @@
       </div>
     </section>
     <Hours />
+    <h1 class="is-size-2 has-text-centered virtual-tour">Virtual Tour</h1>
     <VueGallery />
   </section>
 
@@ -55,6 +56,10 @@ export default {
 
 .title {
   color: white;
+}
+
+.virtual-tour {
+  padding: 25px;
 }
 
 .subtitle {

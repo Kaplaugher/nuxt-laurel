@@ -75,18 +75,30 @@ h1 {
 }
 
 .left-container {
-  display: grid;
 }
 
 .left {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: start;
+  grid-gap: 15px;
+  align-items: center;
+  justify-items: center;
+  padding: 32px;
 }
 
 .form-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 32px;
+}
+
+@media (max-width: 700px) {
+  .form-container {
+    grid-template-columns: 1fr;
+  }
+
+  .left {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

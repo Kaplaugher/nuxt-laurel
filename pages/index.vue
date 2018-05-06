@@ -23,11 +23,11 @@
       </div>
       <div class="reasons-wrapper">
         <div class="reason">
-          <h1 class="is-size-4 reason-title">Friendly and Courteous Staff</h1>
+          <h1 class="is-size-4 reason-title">Friendly/Courteous Staff</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vitae necessitatibus totam eos, ab quos incidunt molestias cupiditate quas sequi perspiciatis provident delectus sed soluta et impedit ullam aspernatur libero!</p>
         </div>
         <div class="reason">
-          <h1 class="is-size-4 reason-title">Dedicated Personalized Service</h1>
+          <h1 class="is-size-4 reason-title">Personalized Service</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum esse repudiandae voluptates modi, rem placeat necessitatibus reprehenderit voluptatem qui pariatur aliquid culpa temporibus omnis accusamus mollitia? Labore quos amet iste.</p>
         </div>
         <div class="reason">
@@ -98,16 +98,26 @@ export default {
 }
 
 .reasons-wrapper {
-  background: blueviolet;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   justify-items: center;
-  color: white;
-  grid-gap: 25px;
+  grid-gap: 30px;
   justify-items: center;
   padding: 3rem;
 
 }
+
+@media (max-width: 700px) {
+  .welcome-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .reasons-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 
 .reason-title {
   text-align: center;
