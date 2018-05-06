@@ -7,7 +7,7 @@
     </section>
     <Hours />
     <section class="form-cards">
-      <Card />
+      <Card imageUrl='~/assets/drt.jpg'/>
       <Card />
       <Card />
     </section>
