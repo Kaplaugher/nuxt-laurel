@@ -35,6 +35,10 @@ export default {
   flex-direction: column;
 }
 
+.button {
+  max-width: 50%;
+}
+
 
 
 </style>

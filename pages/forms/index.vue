@@ -6,11 +6,24 @@
       </div>
     </section>
     <Hours />
-    <section class="form-cards">
-      <Card imageUrl='~/assets/drt.jpg'/>
-      <Card />
-      <Card />
-    </section>
+    <div class="content-wrapper">
+      <div class="form-info">
+        <h2 class="is-size-2">Forms</h2>
+        <p>We try to save you as much time as possible while taking care of your pet.  The following forms are intended for you to download and fill out before you come in.  This should save you some time so your wait at our clinic is minimal.  In order to read and print these forms you will need Adobe Acrobat Reader installed on your computer.</p>
+        <nuxt-link to='/contact' class="button is-primary contact-button">Contact Us</nuxt-link>
+      </div>
+      <div class="form-cards">
+        <Card
+          title="New Patient?"
+          content='Make your first visit a breeze by completing this form.'
+          download='Download'/>
+        <Card
+          title="Thinking about surgery?"
+          content='Take a look at this form and fill out the information.'
+          download='Download'/>
+      </div>
+
+    </div>
   </div>
 </template>
 
@@ -58,15 +71,33 @@ h1 {
   font-size: 4rem;
 }
 
-.form-cards {
+.content-wrapper {
+  grid-template-columns: 1fr 1fr;
   display: grid;
-  padding: 10%;
-  grid-template-columns: repeat(3, 1fr);
   grid-gap: 25px;
+  padding: 32px;
 }
 
+.form-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.form-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contact-button {
+  max-width: 50%;
+}
+
+
+
 @media(max-width: 700px) {
-  .form-cards {
+  .content-wrapper {
     grid-template-columns: 1fr;
   }
 }

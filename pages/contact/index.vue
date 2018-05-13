@@ -6,23 +6,16 @@
       </div>
     </section>
     <Hours />
-    <div class="form-container">
-      <div class="left-container">
-        <div class="left-title">
-          <h2 class="is-size-4" style="text-align: center;">Emergency/After Hours:</h2>
-        </div>
-        <div class="left">
-          <p>North Georgia Veterinary Specialists<br> 1328 Buford Hwy<br> Building 200 Buford, GA 30518<br> (678) 835-3300</p>
-          <p>All Pets Emergency and Referral<br> 6460 Highway 9<br> Alpharetta, GA 30004<br> (678) 366-2125</p>
-        </div>
-      </div>
-      <div class="right">
-        <h2 class="is-size-4">Have a question? Need additional information? Please feel free to contact us.</h2>
+    <div class="contact-wrapper">
+      <div class="form-wrapper">
+        <h2 class="is-size-2">Have a question?</h2>
+        <p>Or need additional information? Please feel free to contact us.</p>
         <Form />
       </div>
-    </div>
-    <div class="map-container">
-      <GoogleMap />
+      <div class="map-wrapper">
+        <GoogleMap />
+      </div>
+
     </div>
   </div>
 
@@ -70,25 +63,30 @@ h1 {
   font-size: 4rem;
 }
 
+p {
+  padding: 10px 0;
+}
+
 .form-title {
   text-align: center;
 }
 
-.left-container {
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.left {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 15px;
-  align-items: center;
-  justify-items: center;
-  padding: 32px;
+.map-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.form-container {
+.contact-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
   padding: 32px;
 }
 

@@ -8,8 +8,6 @@
       </div>
     </section>
     <Hours />
-    <Gallery />
-
   </section>
 </template>
 
