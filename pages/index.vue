@@ -120,6 +120,10 @@ export default {
   .reasons-wrapper {
     grid-template-columns: 1fr;
   }
+
+  .title {
+    font-size: 2rem;
+  }
 }
 
 
