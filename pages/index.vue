@@ -90,6 +90,7 @@ export default {
   padding: 3rem;
   background: #4f9bdb;
   color: white;
+  min-height: 50vh;
 }
 
 .why-title {
@@ -104,7 +105,10 @@ export default {
   grid-gap: 30px;
   justify-items: center;
   padding: 3rem;
+}
 
+.why-wrapper {
+ min-height: 50vh;
 }
 
 @media (max-width: 700px) {

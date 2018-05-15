@@ -76,6 +76,7 @@ h1 {
   display: grid;
   grid-gap: 25px;
   padding: 32px;
+  min-height: 50vh;
 }
 
 .form-info {

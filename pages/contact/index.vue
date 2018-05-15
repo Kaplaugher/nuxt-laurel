@@ -91,7 +91,7 @@ p {
 }
 
 @media (max-width: 700px) {
-  .form-container {
+  .contact-wrapper {
     grid-template-columns: 1fr;
   }
 
