@@ -19,7 +19,7 @@
           download='Download'/>
         <Card
           title="Thinking about surgery?"
-          content='Take a look at this form and fill out the information.'
+          content='Get ahead of the game fill it out before your visit!'
           download='Download'/>
       </div>
 

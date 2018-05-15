@@ -10,7 +10,7 @@
     <Hours />
     <section class="welcome-wrapper">
       <div class="welcome">
-        <h1 style="font-size: 1.5rem;">Welcome to Laurel Springs Animal Hospital, seriving the Forsyth/Gwinett area.</h1>
+        <h1 style="font-size: 1.5rem;">Welcome to Laurel Springs Animal Hospital, serving the Forsyth/Gwinett area.</h1>
         <p style="padding-top: 15px;">We are a full service small animal practice offerseing a wide range of medical and surgical services for your pets.</p>
       </div>
       <div class="image-wrapper">
@@ -46,7 +46,7 @@ export default {
     return {
       title: 'Home',
       meta: [
-        { hid: 'description', name: 'description', content: 'We try to save you as much time as possible while taking care of your pet.  The following forms are intended for you to download and fill out before you come in.  This should save you some time so your wait at our clinic is minimal.  In order to read and print these forms you will need Adobe Acrobat Reader installed on your computer.' }
+        { hid: 'description', name: 'description', content: 'Welcome to Laurel Springs Animal Hospital! We are a full service small animal practice offerseing a wide range of medical and surgical services for your pets. We are located at 3592 Old Atlanta Road Suite 103 Suwanee, GA, 30024. Come on by or give us a call at (770)888-9750 ' }
       ]
     }
   },
@@ -104,7 +104,8 @@ export default {
   justify-items: center;
   grid-gap: 30px;
   justify-items: center;
-  padding: 3rem;
+  padding: 0 3rem;
+  padding-bottom: 3rem;
 }
 
 .why-wrapper {
