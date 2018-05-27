@@ -9,7 +9,7 @@
     <div class="contact-wrapper">
       <div class="form-wrapper">
         <h2 class="is-size-2">Have a question?</h2>
-        <p>Or need additional information? Please feel free to contact us.</p>
+        <p>Or need additional information? <a>(770)-888-9750</a></p>
         <Form />
       </div>
       <div class="map-wrapper">

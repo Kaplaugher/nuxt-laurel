@@ -41,7 +41,7 @@ export default {
 <style scoped>
 .hero-wrapper {
   height: 50vh;
-  background-image: url("~/assets/guinnea.jpg");
+  background-image: url("~/assets/golden.jpg");
   background-size: cover;
   background-position: center center;
   display: grid;
