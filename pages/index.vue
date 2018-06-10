@@ -25,26 +25,28 @@
         </div>
         <div class="column">
           <ul>
-            <li>We care for your pet like you would</li>
-            <li>Dedicated, personalized service</li>
-            <li>Something</li>
+            <li> - We care for your pet like you would</li>
+            <li> - Dedicated, personalized service</li>
+            <li> - Something</li>
           </ul>
         </div>
         <div class="column">
           <ul>
-            <li>Friendly and courteoous staff</li>
-            <li>State of the art facilities</li>
-            <li>Pet drop off (for those with scheduling difficulties)</li>
+            <li> - Friendly and courteoous staff</li>
+            <li> - State of the art facilities</li>
+            <li> - Pet drop off (for those with scheduling difficulties)</li>
           </ul>
         </div>
       </div>
     </section>
+    <EmergencyHours />
 
   </div>
 </template>
 
 <script>
 import Hours from "~/components/UI/Hours";
+import EmergencyHours from "~/components/UI/EmergencyHours";
 export default {
   head() {
     return {
@@ -60,7 +62,8 @@ export default {
     };
   },
   components: {
-    Hours
+    Hours,
+    EmergencyHours
   }
 };
 </script>
@@ -89,6 +92,12 @@ export default {
   color: white;
 }
 
+.center{
+    margin:0 auto;
+    text-align:left;
+}
+
+
 .welcome-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -110,11 +119,6 @@ export default {
   padding-bottom: 15px;
 }
 
-li {
-  list-style: disc;
-}
-
-
 @media (max-width: 700px) {
   .welcome-wrapper {
     grid-template-columns: 1fr;
@@ -125,10 +129,7 @@ li {
   }
 }
 
-.reason-title {
-  text-align: center;
-  padding-bottom: 15px;
-}
+
 
 #front-img {
   max-height: 400px;

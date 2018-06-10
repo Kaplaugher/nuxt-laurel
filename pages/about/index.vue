@@ -77,13 +77,15 @@
           </ul>
         </div>
       </div>
-
     </div>
+    <EmergencyHours />
   </section>
+
 </template>
 
 <script>
 import Hours from "~/components/UI/Hours";
+import EmergencyHours from "~/components/UI/EmergencyHours";
 import Gallery from "~/components/Gallery/Gallery";
 import Profile from '~/components/UI/Profile';
 import StaffProfile from '~/components/UI/StaffProfile';
@@ -103,6 +105,7 @@ export default {
   },
   components: {
     Hours,
+    EmergencyHours,
     Gallery,
     Profile,
     StaffProfile
