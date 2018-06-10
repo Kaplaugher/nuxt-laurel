@@ -14,14 +14,26 @@
         <p>At Laurel Springs Animal Hospital, we understand that your pet is a special part of your family and we will take the appropriate steps to understand both your needs. Our staff is committed to providing your pet with the finest care! We want your pet to be a happy and healthy member of the family. That’s why, we treat every pet as a member of our family.</p>
       </div>
       <div class="pic-wrapper">
-        <div class="pic">
-          <img src="~/assets/drt.jpg" alt="Dr.Tierney" class="responsive">
+        <Profile />
+      </div>
+    </div>
+    <div class="staff-selection has-background-primary">
+      <h2 class="is-size-3 has-text-centered has-text-white has-text-weight-bold section-title">Meet Our Staff</h2>
+      <div class="columns staff-columns">
+        <div class="column">
+          <StaffProfile />
+        </div>
+         <div class="column">
+          <StaffProfile />
+        </div>
+         <div class="column">
+          <StaffProfile />
         </div>
       </div>
     </div>
     <div class="services-wrapper">
-      <h2 class="is-size-3 has-text-centered has-text-primary has-text-weight-bold">Our Services</h2>
-      <div class="columns">
+      <h2 class="is-size-3 has-text-centered has-text-primary has-text-weight-bold section-title">Our Services</h2>
+      <div class="columns service-columns">
         <div class="column">
           <ul>
             <li>Health Exams</li>
@@ -73,6 +85,8 @@
 <script>
 import Hours from "~/components/UI/Hours";
 import Gallery from "~/components/Gallery/Gallery";
+import Profile from '~/components/UI/Profile';
+import StaffProfile from '~/components/UI/StaffProfile';
 export default {
   head() {
     return {
@@ -89,7 +103,9 @@ export default {
   },
   components: {
     Hours,
-    Gallery
+    Gallery,
+    Profile,
+    StaffProfile
   }
 };
 </script>
@@ -114,10 +130,27 @@ export default {
   color: white;
 }
 
+.pic-wrapper {
+  padding: 32px;
+}
+
 .column-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
+}
+
+.staff-selection {
+  background-color: hsl(171, 100%, 41%);
+  padding: 32px;
+}
+
+.staff-columns {
+  padding: 32px;
+}
+
+.service-columns {
+  padding: 32px;
 }
 
 .responsive {
@@ -126,9 +159,6 @@ export default {
   max-height: 400px;
 }
 
-.pic {
-  padding: 32px;
-}
 .info {
   display: grid;
   padding: 32px;
