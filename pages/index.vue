@@ -20,7 +20,7 @@
     </section>
     <section class="reasons-wrapper">
       <h1 class="is-size-3 reason-title">Why Choose Us?</h1>
-      <div class="columns">
+      <div class="reasons">
         <div class="column">
           <p>We offer superior care in a friendly and compassionate environment. At Laurel Springs Animal Hospital, we understand that your pet is a special part of your familly and we take the appropriate steps to...</p>
         </div>
@@ -118,6 +118,13 @@ export default {
   font-weight: bold;
 }
 
+.reasons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 32px;
+}
+
 .reason-title {
   padding-bottom: 15px;
 }
@@ -129,6 +136,10 @@ export default {
 
   .title {
     font-size: 2rem;
+  }
+
+  .reasons {
+    grid-template-columns: 1fr;
   }
 }
 
