@@ -10,8 +10,9 @@
     <Hours />
     <section class="welcome-wrapper">
       <div class="welcome">
-        <h1 style="font-size: 1.5rem;">Welcome to Laurel Springs Animal Hospital, serving the Forsyth/Gwinett area.</h1>
-        <p style="padding-top: 15px;">We are a full service small animal practice offerseing a wide range of medical and surgical services for your pets.</p>
+        <h1 style="font-size: 1.5rem;">Welcome to Laurel Springs Animal Hospital</h1>
+        <hr>
+        <p style="padding-top: 15px;">We are a full service small animal practice offerseing a wide range of medical and surgical services for your pets. We believe in preventive care which means we want to keep your pet healthy so they can live a long and happy life. Our standards of care allow for us to identify and diagnose underlying conditions using comprehensive wellness exam and blood testing before they threaten the health of your pet.</p>
       </div>
       <div class="image-wrapper">
         <img id="front-img" src="~/assets/dogcatfield.jpg">
@@ -39,6 +40,7 @@
         </div>
       </div>
     </section>
+    <Reviews />
     <EmergencyHours />
 
   </div>
@@ -47,6 +49,7 @@
 <script>
 import Hours from "~/components/UI/Hours";
 import EmergencyHours from "~/components/UI/EmergencyHours";
+import Reviews from '~/components/UI/Reviews';
 export default {
   head() {
     return {
@@ -63,7 +66,8 @@ export default {
   },
   components: {
     Hours,
-    EmergencyHours
+    EmergencyHours,
+    Reviews
   }
 };
 </script>
@@ -92,11 +96,10 @@ export default {
   color: white;
 }
 
-.center{
-    margin:0 auto;
-    text-align:left;
+.center {
+  margin: 0 auto;
+  text-align: left;
 }
-
 
 .welcome-wrapper {
   display: grid;
@@ -128,8 +131,6 @@ export default {
     font-size: 2rem;
   }
 }
-
-
 
 #front-img {
   max-height: 400px;

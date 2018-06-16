@@ -36,6 +36,7 @@ module.exports = {
   plugins: [
     { src: '~/plugins/vue2-google-maps.js', ssr: false },
     { src: '~/plugins/vue-gallery.js', ssr: false },
+    { src: '~plugins/vue-carousel.js', ssr: false },
   ],
 
   /*
