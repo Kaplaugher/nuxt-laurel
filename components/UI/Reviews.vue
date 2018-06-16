@@ -1,53 +1,68 @@
 <template>
   <div class="page-wrapper">
     <h1 class="is-size-2 has-text-primary has-text-centered">Reviews</h1>
-    <carousel :per-page="1" mouse-drag="false">
-      <slide>
+    <carousel :per-page="perPage" :autoplay="autoplay" :autoplayTimeout="autoplayTimeout" :paginationEnabled="autoplay" paginationActiveColor="#368fed" paginationColor="black" :perPageCustom="[[768, 2]]">
+      <slide class="slide">
         <div class="slide-wrapper">
-          <div class="card">
+          <div class="cards">
             <div class="card-content">
               <p class="title">
-                “There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.”
+                “Great experience, amazing doc, friendly staff. Definitely recommend.”
               </p>
-              <p class="subtitle">
-                Jeff Atwood
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-content">
-              <p class="title">
-                “There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.”
-              </p>
-              <p class="subtitle">
-                Jeff Atwood
+              <p class="has-text-centered">
+                Sandeep Tarayil
               </p>
             </div>
           </div>
         </div>
-
+      </slide>
+      <slide>
+        <div class="cards">
+          <div class="card-content">
+            <p class="title">
+              “Wonderful experience, love taking my kitties here who are scared of everything but love Laurel Springs Animal Clinic and Dr. Tierney.”
+            </p>
+            <p class="has-text-centered">
+              Kimberly Cobak
+            </p>
+          </div>
+        </div>
       </slide>
       <slide>
         <div class="slide-wrapper">
-          <div class="card">
+          <div class="cards">
             <div class="card-content">
               <p class="title">
-                “There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.”
+                “Kelly has taken great care of our dogs for several years. She loves animals and they love her! She does a great job.”
               </p>
-              <p class="subtitle">
-                Jeff Atwood
+              <p class="has-text-centered">
+                Jeff Tormey
               </p>
             </div>
           </div>
-          <div class="card">
-            <div class="card-content">
-              <p class="title">
-                “There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.”
-              </p>
-              <p class="subtitle">
-                Jeff Atwood
-              </p>
-            </div>
+        </div>
+      </slide>
+      <slide>
+        <div class="cards">
+          <div class="card-content">
+            <p class="title">
+              “I have been bringing my dog and 5 cats to Dr. Tierney for the last 7 years and couldn't be happier. She really makes us all feel like family :-)”
+            </p>
+            <p class="has-text-centered">
+              Dawn W.
+            </p>
+          </div>
+        </div>
+      </slide>
+      <slide>
+        <div class="cards">
+          <div class="card-content">
+            <p class="title">
+              “Dr. Tierney and her staff are true professionals. She takes time with you and your pet to answer questions and make sure you are comfortable with the treatment and the follow up prescribed. We would not take our pet anywhere else.”
+            </p>
+            <p class="has-text-centered">
+              William M.
+            </p>
           </div>
         </div>
       </slide>
@@ -57,14 +72,17 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      autoplay: true,
+      autoplayTimeout: 6000,
+      perPage: 1
+    }
+  }
+};
 </script>
 
 <style scoped>
-.slide-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 15px;
-  padding: 32px;
-}
+
 </style>
