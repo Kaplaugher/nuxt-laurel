@@ -1,6 +1,6 @@
 <template>
   <div class="page-wrapper">
-    <h1 class="is-size-2 has-text-primary has-text-centered">Reviews</h1>
+    <h1 class="is-size-2 has-text-primary has-text-centered">What Our Clients Have To Say</h1>
     <carousel :per-page="perPage" paginationActiveColor="#368fed" paginationColor="black" :perPageCustom="[[768, 2]]">
       <slide>
         <div class="cards">

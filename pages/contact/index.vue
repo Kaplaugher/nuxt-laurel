@@ -48,7 +48,7 @@ export default {
 
 <style scoped>
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('~assets/dogfield.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('~assets/doggy.jpg');
   background-size: cover;
   background-position: 30% 20%;
 }

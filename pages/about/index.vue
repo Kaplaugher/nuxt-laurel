@@ -4,7 +4,7 @@
       <div class="hero-body">
         <div class="container">
           <h1 class="title has-text-white">
-            About
+            Who We Are
           </h1>
         </div>
       </div>
@@ -23,13 +23,49 @@
       <h2 class="is-size-3 has-text-centered has-text-white has-text-weight-bold section-title">Meet Our Staff</h2>
       <div class="columns staff-columns">
         <div class="column">
-          <StaffProfile />
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="~/assets/vettech3.jpeg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <h1 class="is-size-3">Blah blah</h1>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+              </div>
+            </div>
+          </div>
         </div>
-         <div class="column">
-          <StaffProfile />
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="~/assets/vettech1.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <h1 class="is-size-3">Blah blah</h1>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+              </div>
+            </div>
+          </div>
         </div>
-         <div class="column">
-          <StaffProfile />
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="~/assets/vettech2.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <h1 class="is-size-3">Blah blah</h1>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -89,8 +125,7 @@
 import Hours from "~/components/UI/Hours";
 import EmergencyHours from "~/components/UI/EmergencyHours";
 import Gallery from "~/components/Gallery/Gallery";
-import Profile from '~/components/UI/Profile';
-import StaffProfile from '~/components/UI/StaffProfile';
+import Profile from "~/components/UI/Profile";
 export default {
   head() {
     return {
@@ -110,14 +145,14 @@ export default {
     EmergencyHours,
     Gallery,
     Profile,
-    StaffProfile
   }
 };
 </script>
 
 <style scoped>
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('~/assets/mouse.jpeg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("~/assets/mouse.jpeg");
   background-size: cover;
   background-position: center center;
 }
@@ -168,15 +203,11 @@ export default {
   .column-wrapper {
     grid-template-columns: 1fr;
   }
+}
 
-  .hero {
-    height: 30vh;
-  }
-
-  @media (min-width: 1000px) {
+@media (min-width: 1000px) {
   .hero {
     height: 40vh;
   }
-}
 }
 </style>
