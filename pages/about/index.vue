@@ -117,7 +117,7 @@ export default {
 
 <style scoped>
 .hero {
-  background-image: url("~/assets/guinnea.jpg");
+  background-image: url("~/assets/mouse.jpeg");
   background-size: cover;
   background-position: center center;
 }
@@ -172,5 +172,11 @@ export default {
   .hero {
     height: 30vh;
   }
+
+  @media (min-width: 1000px) {
+  .hero {
+    height: 40vh;
+  }
+}
 }
 </style>

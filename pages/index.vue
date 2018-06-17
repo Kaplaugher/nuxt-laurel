@@ -131,6 +131,11 @@ export default {
     height: 30vh;
   }
 }
+@media (min-width: 1000px) {
+  .hero {
+    height: 40vh;
+  }
+}
 
 #front-img {
   max-height: 400px;

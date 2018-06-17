@@ -98,5 +98,11 @@ export default {
   }
 }
 
+@media (min-width: 1000px) {
+  .hero {
+    height: 40vh;
+  }
+}
+
 
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="page-wrapper">
     <h1 class="is-size-2 has-text-primary has-text-centered">Reviews</h1>
-    <carousel :per-page="perPage" :paginationEnabled="autoplay" paginationActiveColor="#368fed" paginationColor="black" :perPageCustom="[[768, 2]]">
+    <carousel :per-page="perPage" paginationActiveColor="#368fed" paginationColor="black" :perPageCustom="[[768, 2]]">
       <slide>
         <div class="cards">
           <div class="card-content">
