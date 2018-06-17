@@ -11,6 +11,7 @@
       <ul
         class="nav-list"
         @click="$emit('close')">
+        <li class="nav-item"><nuxt-link to="/">Home</nuxt-link></li>
         <li class="nav-item"><nuxt-link to="/about">About</nuxt-link></li>
         <li class="nav-item"><nuxt-link to="/clinictour">Clinic Tour</nuxt-link></li>
         <li class="nav-item"><nuxt-link to="/Forms">Forms</nuxt-link></li>

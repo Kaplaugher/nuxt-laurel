@@ -1,8 +1,12 @@
 <template>
   <div>
-    <section class="hero-wrapper">
-      <div class="hero-text">
-        <h1>Contact Us</h1>
+    <section class="hero is-medium">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title has-text-white">
+            Contact Us
+          </h1>
+        </div>
       </div>
     </section>
     <Hours />
@@ -43,25 +47,12 @@ export default {
 </script>
 
 <style scoped>
-.hero-wrapper {
-  height: 50vh;
-  background-image: url("~/assets/guinnea.jpg");
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('~assets/dogfield.jpg');
   background-size: cover;
-  background-position: center center;
-  display: grid;
-  align-items: center;
+  background-position: 30% 20%;
 }
 
-.hero-text {
-  display: flex;
-  flex-direction: column;
-  padding: 40px;
-  color: white;
-}
-
-h1 {
-  font-size: 4rem;
-}
 
 p {
   padding: 10px 0;
@@ -97,6 +88,10 @@ p {
 
   .left {
     grid-template-columns: 1fr;
+  }
+
+  .hero {
+    height: 30vh;
   }
 }
 </style>

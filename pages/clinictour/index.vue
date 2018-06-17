@@ -1,9 +1,11 @@
 <template>
   <section class="clinic-wrapper">
-    <section class="hero-wrapper">
-      <div class="hero-text">
-        <div class="title">
-          <h1 class="title is-1">Clinic Tour</h1>
+    <section class="hero is-medium">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Clinic Tour
+          </h1>
         </div>
       </div>
     </section>
@@ -39,13 +41,10 @@ export default {
 </script>
 
 <style scoped>
-.hero-wrapper {
-  height: 50vh;
-  background-image: url("~/assets/golden.jpg");
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('~assets/kitten.jpg');
   background-size: cover;
   background-position: center center;
-  display: grid;
-  align-items: center;
 }
 
 .hero-text {
@@ -71,5 +70,11 @@ export default {
   justify-content: space-between;
   flex-wrap: wrap;
   background: brown;
+}
+
+@media (max-width: 700px) {
+  .hero {
+    height: 30vh;
+  }
 }
 </style>

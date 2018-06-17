@@ -1,9 +1,11 @@
 <template>
   <div class="home-wrapper">
-    <section class="hero-wrapper">
-      <div class="hero-text">
-        <div class="title">
-          <h1 class="title is-1">Laurel Springs Animal Hospital</h1>
+    <section class="hero is-medium">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title has-text-white">
+            Laurel Springs Animal Hospital
+          </h1>
         </div>
       </div>
     </section>
@@ -49,7 +51,7 @@
 <script>
 import Hours from "~/components/UI/Hours";
 import EmergencyHours from "~/components/UI/EmergencyHours";
-import Reviews from '~/components/UI/Reviews';
+import Reviews from "~/components/UI/Reviews";
 export default {
   head() {
     return {
@@ -59,7 +61,7 @@ export default {
           hid: "description",
           name: "description",
           content:
-            "Welcome to Laurel Springs Animal Hospital! We are a full service small animal practice offerseing a wide range of medical and surgical services for your pets. We are located at 3592 Old Atlanta Road Suite 103 Suwanee, GA, 30024. Come on by or give us a call at (770)888-9750 "
+            "Welcome to Laurel Springs Animal Hospital! We are a full service small animal practice offering a wide range of medical and surgical services for your pets. We are located at 3592 Old Atlanta Road Suite 103 Suwanee, GA, 30024. Come on by or give us a call at (770)888-9750"
         }
       ]
     };
@@ -73,27 +75,10 @@ export default {
 </script>
 
 <style scoped>
-.hero-wrapper {
-  height: 50vh;
-  background-image: url("~/assets/linedup.jpg");
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('~/assets/dogcat.jpg');
   background-size: cover;
   background-position: center center;
-  display: grid;
-  align-items: center;
-}
-
-.hero-text {
-  display: flex;
-  flex-direction: column;
-  padding: 40px;
-}
-
-.title {
-  color: black;
-}
-
-.subtitle {
-  color: white;
 }
 
 .center {
@@ -140,6 +125,10 @@ export default {
 
   .reasons {
     grid-template-columns: 1fr;
+  }
+
+  .hero {
+    height: 30vh;
   }
 }
 

@@ -1,47 +1,7 @@
 <template>
   <div class="page-wrapper">
     <h1 class="is-size-2 has-text-primary has-text-centered">Reviews</h1>
-    <carousel :per-page="perPage" :autoplay="autoplay" :autoplayTimeout="autoplayTimeout" :paginationEnabled="autoplay" paginationActiveColor="#368fed" paginationColor="black" :perPageCustom="[[768, 2]]">
-      <slide class="slide">
-        <div class="slide-wrapper">
-          <div class="cards">
-            <div class="card-content">
-              <p class="title">
-                “Great experience, amazing doc, friendly staff. Definitely recommend.”
-              </p>
-              <p class="has-text-centered">
-                Sandeep Tarayil
-              </p>
-            </div>
-          </div>
-        </div>
-      </slide>
-      <slide>
-        <div class="cards">
-          <div class="card-content">
-            <p class="title">
-              “Wonderful experience, love taking my kitties here who are scared of everything but love Laurel Springs Animal Clinic and Dr. Tierney.”
-            </p>
-            <p class="has-text-centered">
-              Kimberly Cobak
-            </p>
-          </div>
-        </div>
-      </slide>
-      <slide>
-        <div class="slide-wrapper">
-          <div class="cards">
-            <div class="card-content">
-              <p class="title">
-                “Kelly has taken great care of our dogs for several years. She loves animals and they love her! She does a great job.”
-              </p>
-              <p class="has-text-centered">
-                Jeff Tormey
-              </p>
-            </div>
-          </div>
-        </div>
-      </slide>
+    <carousel :per-page="perPage" :paginationEnabled="autoplay" paginationActiveColor="#368fed" paginationColor="black" :perPageCustom="[[768, 2]]">
       <slide>
         <div class="cards">
           <div class="card-content">
@@ -66,6 +26,46 @@
           </div>
         </div>
       </slide>
+      <slide class="slide">
+        <div class="slide-wrapper">
+          <div class="cards">
+            <div class="card-content">
+              <p class="title">
+                “Great experience, amazing doc, friendly staff. Definitely recommend.”
+              </p>
+              <p class="has-text-centered">
+                Sandeep T.
+              </p>
+            </div>
+          </div>
+        </div>
+      </slide>
+      <slide>
+        <div class="cards">
+          <div class="card-content">
+            <p class="title">
+              “Wonderful experience, love taking my kitties here who are scared of everything but love Laurel Springs Animal Clinic and Dr. Tierney.”
+            </p>
+            <p class="has-text-centered">
+              Kimberly C.
+            </p>
+          </div>
+        </div>
+      </slide>
+      <slide>
+        <div class="slide-wrapper">
+          <div class="cards">
+            <div class="card-content">
+              <p class="title">
+                “Kelly has taken great care of our dogs for several years. She loves animals and they love her! She does a great job.”
+              </p>
+              <p class="has-text-centered">
+                Jeff T.
+              </p>
+            </div>
+          </div>
+        </div>
+      </slide>
     </carousel>
   </div>
 
@@ -75,14 +75,11 @@
 export default {
   data() {
     return {
-      autoplay: true,
-      autoplayTimeout: 6000,
       perPage: 1
-    }
+    };
   }
 };
 </script>
 
 <style scoped>
-
 </style>

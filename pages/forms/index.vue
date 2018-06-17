@@ -1,8 +1,12 @@
 <template>
   <div>
-    <section class="hero-wrapper">
-      <div class="hero-text">
-        <h1>Forms</h1>
+    <section class="hero is-medium">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title has-text-white">
+            Forms
+          </h1>
+        </div>
       </div>
     </section>
     <Hours />
@@ -47,28 +51,16 @@ export default {
 </script>
 
 <style scoped>
-.hero-wrapper {
-  height: 50vh;
-  background-image: url("~/assets/cat.png");
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('~assets/cat.png');
   background-size: cover;
   background-position: center center;
-  display: grid;
-  align-items: center;
 }
 
 .hero-text {
   display: flex;
   flex-direction: column;
   padding: 40px;
-}
-
-.title {
-  color: black;
-}
-
-h1 {
-  color: white;
-  font-size: 4rem;
 }
 
 .content-wrapper {
@@ -100,6 +92,9 @@ h1 {
 @media(max-width: 700px) {
   .content-wrapper {
     grid-template-columns: 1fr;
+  }
+  .hero {
+    height: 30vh;
   }
 }
 

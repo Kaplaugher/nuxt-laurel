@@ -1,9 +1,11 @@
 <template>
   <section class="about-wrapper">
-    <section class="hero-wrapper">
-      <div class="hero-text">
-        <div>
-          <h1 class="title is-1 ">About Us</h1>
+    <section class="hero is-medium">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title has-text-white">
+            About
+          </h1>
         </div>
       </div>
     </section>
@@ -114,23 +116,10 @@ export default {
 </script>
 
 <style scoped>
-.hero-wrapper {
-  height: 50vh;
+.hero {
   background-image: url("~/assets/guinnea.jpg");
   background-size: cover;
   background-position: center center;
-  display: grid;
-  align-items: center;
-}
-
-.hero-text {
-  display: flex;
-  flex-direction: column;
-  padding: 40px;
-}
-
-.title {
-  color: white;
 }
 
 .pic-wrapper {
@@ -178,6 +167,10 @@ export default {
   }
   .column-wrapper {
     grid-template-columns: 1fr;
+  }
+
+  .hero {
+    height: 30vh;
   }
 }
 </style>
