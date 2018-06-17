@@ -203,6 +203,10 @@ export default {
   .column-wrapper {
     grid-template-columns: 1fr;
   }
+
+  .hero {
+    height: 30vh;
+  }
 }
 
 @media (min-width: 1000px) {
