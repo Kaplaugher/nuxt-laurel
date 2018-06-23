@@ -73,7 +73,7 @@
       <h2 class="is-size-3 has-text-centered has-text-primary has-text-weight-bold section-title">Our Services</h2>
       <div class="columns service-columns">
         <div class="column">
-          <ul>
+          <ul class="list-wrapper">
             <li>Health Exams</li>
             <li>Digital Radiology</li>
             <li>Dentistry</li>
@@ -84,7 +84,7 @@
           </ul>
         </div>
         <div class="column">
-          <ul>
+          <ul class="list-wrapper">
             <li>K Laser</li>
             <li>Ultrasound</li>
             <li>Full Service Pharmacy</li>
@@ -95,7 +95,7 @@
           </ul>
         </div>
         <div class="column">
-          <ul>
+          <ul class="list-wrapper">
             <li>Pocket Pet Care</li>
             <li>Anesthesia</li>
             <li>Flea Control</li>
@@ -106,7 +106,7 @@
           </ul>
         </div>
         <div class="column">
-          <ul>
+          <ul class="list-wrapper">
             <li>Pain Management</li>
             <li>Parasite Control</li>
             <li>Prescriptions</li>
@@ -201,11 +201,9 @@ export default {
 }
 
 @media (max-width: 700px) {
-  .columns {
-    text-align: center;
-  }
   .column-wrapper {
     grid-template-columns: 1fr;
+    justify-items: center;
   }
 
   .hero {

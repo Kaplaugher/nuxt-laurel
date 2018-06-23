@@ -79,9 +79,6 @@ a:hover {
       grid-template-columns: 1fr;
       font-size: 13px;
     }
-    .right {
-
-    }
   }
 
 </style>
