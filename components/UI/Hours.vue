@@ -11,11 +11,11 @@
         </div>
         <div class="time">
           <h6 >Saturday</h6>
-          <p >12:30om - 1:30pm</p>
+          <p >8:30am - 12:30pm</p>
         </div>
         <div class="time">
           <h6 >Closed During Lunch</h6>
-          <p >12:30am - 1:30pm</p>
+          <p >12:30pm - 1:30pm</p>
         </div>
       </div>
     </div>
@@ -24,15 +24,10 @@
         <h5 class="is-size-4" style="color: white">Address</h5>
       </div>
       <div class="address">
-        <!-- <span class="is-size-7">3592 Old Atlanta Road</span>
-        <span class="is-size-7">Suite 103</span>
-        <span class="is-size-7">Suwanee, GA, 30024</span>
-        <span class="is-size-7">(770) 888-9750</span> -->
         <p><a href="">3592 Old Atlanta Road, Suite 103, Suwanee, GA, 30024 </a></p>
         <p><a href="">(770) 888-9750 </a></p>
       </div>
     </div>
-
   </section>
 </template>
 
@@ -81,14 +76,17 @@ a:hover {
 
   @media (max-width: 700px) {
     .hour-section {
-      grid-template-columns: 1fr;
-      justify-items: center;
+      display: flex;
+      justify-content: space-around;
     }
     .times {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 15px;
-      padding: 32px;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
     }
   }
 
