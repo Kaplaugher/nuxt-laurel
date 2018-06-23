@@ -6,22 +6,23 @@
         <div class="cards">
           <div class="card-content">
             <p class="title">
-              “I have been bringing my dog and 5 cats to Dr. Tierney for the last 7 years and couldn't be happier. She really makes us all feel like family :-)”
+              “Dr. Tierney and her staff are true professionals. She takes time with you and your pet to answer questions and make sure you are comfortable with the treatment and the follow up prescribed. We would not take our pet anywhere else.”
             </p>
             <p class="has-text-centered">
-              Dawn W.
+              William M.
             </p>
           </div>
+
         </div>
       </slide>
       <slide>
         <div class="cards">
           <div class="card-content">
             <p class="title">
-              “Dr. Tierney and her staff are true professionals. She takes time with you and your pet to answer questions and make sure you are comfortable with the treatment and the follow up prescribed. We would not take our pet anywhere else.”
+              “I have been bringing my dog and 5 cats to Dr. Tierney for the last 7 years and couldn't be happier. She really makes us all feel like family :-)”
             </p>
             <p class="has-text-centered">
-              William M.
+              Dawn W.
             </p>
           </div>
         </div>
