@@ -15,7 +15,7 @@
         </div>
         <div class="time">
           <h6 >Closed During Lunch</h6>
-          <p >8:30am - 5:30pm</p>
+          <p >12:30am - 1:30pm</p>
         </div>
       </div>
     </div>
@@ -77,6 +77,19 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+  }
+
+  @media (max-width: 700px) {
+    .hour-section {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+    .times {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 15px;
+      padding: 32px;
+    }
   }
 
 </style>
