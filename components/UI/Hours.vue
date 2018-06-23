@@ -76,17 +76,11 @@ a:hover {
 
   @media (max-width: 700px) {
     .hour-section {
-      display: flex;
-      justify-content: space-around;
-    }
-    .times {
-      display: flex;
-      justify-content: space-between;
-      padding: 10px;
+      grid-template-columns: 1fr;
+      font-size: 13px;
     }
     .right {
-      display: flex;
-      flex-direction: column;
+
     }
   }
 
