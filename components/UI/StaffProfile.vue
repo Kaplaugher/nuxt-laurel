@@ -7,9 +7,6 @@
     </div>
     <div class="card-content">
       <h1 class="is-size-3">Blah blah</h1>
-      <div class="content">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-      </div>
     </div>
   </div>
 </template>

@@ -209,6 +209,10 @@ export default {
   .hero {
     height: 30vh;
   }
+
+  .content {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 1000px) {
