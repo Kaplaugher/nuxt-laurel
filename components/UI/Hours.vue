@@ -24,8 +24,8 @@
         <h5 class="is-size-4" style="color: white">Address</h5>
       </div>
       <div class="address">
-        <p><a href="">3592 Old Atlanta Road, Suite 103, Suwanee, GA, 30024 </a></p>
-        <p><a href="">(770) 888-9750 </a></p>
+        <p><a href="https://www.google.com/maps/place/3592+Old+Atlanta+Rd+%23103,+Suwanee,+GA+30024/@34.1016413,-84.1417035,17z/data=!3m1!4b1!4m5!3m4!1s0x88f59980bdbfe83f:0x11237a31c5a30a9c!8m2!3d34.1016369!4d-84.1395148" target="__blank">3592 Old Atlanta Road, Suite 103, Suwanee, GA, 30024 </a></p>
+        <p><a href="tel:770-888-9750">(770) 888-9750 </a></p>
       </div>
     </div>
   </section>
