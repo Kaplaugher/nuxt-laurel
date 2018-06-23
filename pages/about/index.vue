@@ -213,6 +213,11 @@ export default {
   .content {
     font-size: 15px;
   }
+
+  .columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (min-width: 1000px) {
