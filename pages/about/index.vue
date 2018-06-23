@@ -214,7 +214,7 @@ export default {
     font-size: 15px;
   }
 
-  .columns {
+  .service-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
