@@ -37,5 +37,9 @@ a {
   color: white;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 
 </style>

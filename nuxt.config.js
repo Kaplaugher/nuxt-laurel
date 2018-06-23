@@ -14,7 +14,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Welcome to Laurel Springs Animal Hospital serving the Forsyth/Gwinnett area. We are a full-service small animal practice offering a wide range of medical and surgical services for your pets. We offer superior care in a friendly and compassionate environment.' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Merriweather|Montserrat' },
     ]
   },
 

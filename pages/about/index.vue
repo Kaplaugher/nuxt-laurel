@@ -12,8 +12,8 @@
     <Hours />
     <div class="column-wrapper">
       <div class="info">
-        <h2 class="is-size-3 has-text-centered has-text-primary has-text-weight-bold	">About Us</h2>
-        <p>At Laurel Springs Animal Hospital, we understand that your pet is a special part of your family and we will take the appropriate steps to understand both your needs. Our staff is committed to providing your pet with the finest care! We want your pet to be a happy and healthy member of the family. That’s why, we treat every pet as a member of our family.</p>
+        <h2 class="is-size-3 has-text-centered has-text-primary has-text-weight-bold">About Us</h2>
+        <p class="description">At Laurel Springs Animal Hospital, we understand that your pet is a special part of your family and we will take the appropriate steps to understand both your needs. Our staff is committed to providing your pet with the finest care! We want your pet to be a happy and healthy member of the family. That’s why, we treat every pet as a member of our family.</p>
       </div>
       <div class="pic-wrapper">
         <Profile />
@@ -159,6 +159,10 @@ export default {
 
 .pic-wrapper {
   padding: 32px;
+}
+
+.description {
+  margin-top: 20px;
 }
 
 .column-wrapper {

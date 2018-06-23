@@ -2,32 +2,34 @@
   <section class="hour-section">
     <div class="left">
       <div class="title">
-        <h5 class="is-size-6" style="color: white">Daily Business Hours</h5>
+        <h5 class="is-size-4" style="color: white">Daily Business Hours</h5>
       </div>
       <div class="times">
         <div class="time">
-          <h2 class="is-size-7">Monday - Friday</h2>
-          <p class="is-size-7">8:30am - 5:30pm</p>
+          <h6 >Monday - Friday</h6>
+          <p >8:30am - 5:30pm</p>
         </div>
         <div class="time">
-          <h2 class="is-size-7">Saturday</h2>
-          <p class="is-size-7">12:30om - 1:30pm</p>
+          <h6 >Saturday</h6>
+          <p >12:30om - 1:30pm</p>
         </div>
         <div class="time">
-          <h2 class="is-size-7">Closed During Lunch</h2>
-          <p class="is-size-7">8:30am - 5:30pm</p>
+          <h6 >Closed During Lunch</h6>
+          <p >8:30am - 5:30pm</p>
         </div>
       </div>
     </div>
     <div class="right">
       <div class="title">
-        <h5 class="is-size-6" style="color: white">Address</h5>
+        <h5 class="is-size-4" style="color: white">Address</h5>
       </div>
       <div class="address">
-        <span class="is-size-7">3592 Old Atlanta Road</span>
+        <!-- <span class="is-size-7">3592 Old Atlanta Road</span>
         <span class="is-size-7">Suite 103</span>
         <span class="is-size-7">Suwanee, GA, 30024</span>
-        <span class="is-size-7">(770)888-9750</span>
+        <span class="is-size-7">(770) 888-9750</span> -->
+        <p><a href="">3592 Old Atlanta Road, Suite 103, Suwanee, GA, 30024 </a></p>
+        <p><a href="">(770) 888-9750 </a></p>
       </div>
     </div>
 
@@ -53,7 +55,16 @@ export default {
 
   .title {
     text-align: center;
+    margin-bottom: 1.05rem;
   }
+
+  a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 
   .times {
     display: flex;
