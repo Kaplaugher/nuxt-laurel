@@ -8,7 +8,7 @@
       </div>
 
       <div class="content">
-      {{content}} <br><a>{{download}}</a>.
+      {{content}} <br><a :href="downloadLink" download>{{download}}</a>.
       </div>
     </div>
 </div>
@@ -20,13 +20,15 @@ export default {
     return {
       title: '',
       content: '',
-      download: ''
+      download: '',
+      downloadLink: ''
     }
   },
   props: {
     title: '',
     content: '',
-    download: ''
+    download: '',
+    downloadLink: ''
   }
 
 
