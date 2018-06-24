@@ -21,12 +21,12 @@
           title="New Patient?"
           content='Make your first visit a breeze by completing this form.'
           download='Download'
-          downloadLink='~/assets/forms/new_patient_form.pdf'/>
+          downloadLink='/new_patient_form.pdf'/>
         <Card
           title="Thinking about surgery?"
           content='Get ahead of the game fill it out before your visit!'
           download='Download'
-          downloadLink='~/assets/forms/surgery_release_form.pdf'/>
+          downloadLink='/surgery_release_form.pdf'/>
       </div>
     </div>
   </div>
